@@ -23,6 +23,8 @@ Feel free to add CSS and javascript external files if needed. Only files importe
 
 You can also change the template provided, given that the result is the same and your submission satisfies all the points above.
 
+The files on `US States Files` folder are not required for the assignment, they are provided as an opitional task if you wish to reproduce the US map from the video.
+
 ### Submission Notes
 For submission, you should follow the instructions given in this video: https://vimeo.com/237472053
 
