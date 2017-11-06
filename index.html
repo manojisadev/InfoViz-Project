@@ -1,0 +1,98 @@
+<html>
+    <head>
+        <title>Earthquakes around the world</title>
+        <script src="d3.js"></script>
+        <style>
+            body {
+                text-align: center;
+            }
+            svg {
+                border: solid 1px #000;
+            }
+            .graticule {
+                fill: none;
+                stroke: #777;
+                stroke-width: 1px;
+                stroke-opacity: .5;
+            }
+
+            #sphere {
+                fill: none;
+                stroke-width: 2px;
+                stroke: black;
+            }
+
+        </style>
+    </head>
+    <body>
+        <svg id="map">
+
+        </svg>
+    </body>
+    <script>
+        const WIDTH = 800
+        const HEIGHT = 400
+
+        function drawBaseMap(mapData, earthquakes, containerID) {
+            let maximumMagnitude = d3.max(mapData.features, d => d.properties.value);
+            let minMagnitude = d3.mean(mapData.features, d => d.properties.value);
+            let minMagnitude2 = d3.min(mapData.features, d => d.properties.value);
+            let colorScale = d3.scaleLinear()
+                .range(["#5e3c99", "#ffffbf" ,"#e66101"])
+                .domain([minMagnitude2, minMagnitude, maximumMagnitude])
+
+            let container = d3.select(containerID)
+
+            //TODO - Video 2 - Create Projection
+            //TODO - Video 1 - Create geoPath 
+
+            //TODO - Video 2 - Draw Graticule 
+            //TODO - Video 2 - Draw Sphere - Border Around the map
+
+            //TODO - Video 1 -Draw Map - Draw the countries borders
+            //TODO - Video 3 - Color Each Country based on the largest earthquake data (lagestEarthquakes merged into mapData)
+            
+            plotEarthquakes(earthquakes, projection, container)
+        }
+
+        function plotEarthquakes(earthquakes, projection, container) {
+            //TODO - Video 4 - Add one dot for each earthquake (data: earthquakes)
+        }
+
+        //This function merges the map geoinformation with the largest earthquake data, not that some contries don't have earthquake data, and it is fine.
+        function mergeInfoIntoMapData(mapData, data) {
+            console.log(mapData.features.length - data.length)
+            count = 0
+            mapData.features = mapData.features.map(geoFeature => {
+                let dataInfo = data.find(d => d.Country === geoFeature.properties.name)
+                if(!dataInfo) {
+                    console.log("Didn't find", geoFeature.properties.name)
+                    return geoFeature
+                }
+                
+                geoFeature.properties.value = +dataInfo.Magnitude
+                return geoFeature
+            })
+            
+        }
+       
+        function loadData() {
+            d3.queue()
+                .defer(d3.json, "countries.geo.json")
+                .defer(d3.csv, "largestEarthquakes.csv")
+                .defer(d3.csv, "earthquakes.csv")
+                .await((err, mapData, lagestEarthquakes, earthquakes) => {
+                    mergeInfoIntoMapData(mapData, lagestEarthquakes)
+                    drawBaseMap(mapData, earthquakes, "#map")
+                })
+        }
+
+        function main() {
+            d3.select("#map")
+                .attr("width", WIDTH)
+                .attr("height", HEIGHT)
+            loadData()
+        }
+        main()
+    </script>
+</html>
