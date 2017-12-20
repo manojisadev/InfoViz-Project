@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9ff3d7fd-7f8d-40b8-80fc-bf039b9efb15" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bubble.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index4.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pivot_counts.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pivot_rating.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pivot_rating_c.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scatter.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yelp_bus_avg.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yelp_cat_avg.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bubble.js" afterPath="$PROJECT_DIR$/bubble.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,11 +14,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="bubble.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="scatter1.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scatter1.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="864">
+              <caret line="48" column="18" lean-forward="false" selection-start-line="48" selection-start-column="16" selection-end-line="48" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bubble.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bubble.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="107" column="9" lean-forward="true" selection-start-line="107" selection-start-column="9" selection-end-line="107" selection-end-column="9" />
+            <state relative-caret-position="684">
+              <caret line="38" column="18" lean-forward="false" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="scatter.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scatter.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="612">
+              <caret line="34" column="23" lean-forward="false" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -46,18 +57,18 @@
       <file leaf-file-name="d31.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/d31.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15138">
+            <state relative-caret-position="3096">
               <caret line="841" column="0" lean-forward="false" selection-start-line="841" selection-start-column="0" selection-end-line="841" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index4.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index4.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index4.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1854">
-              <caret line="103" column="0" lean-forward="false" selection-start-line="103" selection-start-column="0" selection-end-line="150" selection-end-column="9" />
+            <state relative-caret-position="1677">
+              <caret line="113" column="53" lean-forward="true" selection-start-line="113" selection-start-column="53" selection-end-line="113" selection-end-column="53" />
               <folding />
             </state>
           </provider>
@@ -80,10 +91,12 @@
       <find>scatter</find>
       <find>10</find>
       <find>label</find>
-      <find>r</find>
       <find>deb</find>
       <find>de</find>
       <find>op</find>
+      <find>r</find>
+      <find>rel</find>
+      <find>0.4</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -121,8 +134,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="568" />
-    <option name="y" value="34" />
+    <option name="x" value="775" />
+    <option name="y" value="24" />
     <option name="width" value="1145" />
     <option name="height" value="1028" />
   </component>
@@ -141,8 +154,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -154,6 +165,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -189,34 +202,34 @@
       <option name="presentableId" value="Default" />
       <updated>1513369496270</updated>
       <workItem from="1513369497537" duration="25153000" />
-      <workItem from="1513486403745" duration="1717000" />
+      <workItem from="1513486403745" duration="8304000" />
+      <workItem from="1513792755254" duration="237000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26870000" />
+    <option name="totallyTimeSpent" value="33694000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="568" y="34" width="1145" height="1028" extended-state="0" />
-    <editor active="true" />
+    <frame x="775" y="24" width="1145" height="1028" extended-state="0" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2010919" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20473157" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3297414" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3297414" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -249,6 +262,54 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/scatter1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="864">
+          <caret line="48" column="18" lean-forward="false" selection-start-line="48" selection-start-column="16" selection-end-line="48" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scatter.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="34" column="23" lean-forward="false" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pivot_rating_c.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/d31.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15138">
+          <caret line="841" column="0" lean-forward="false" selection-start-line="841" selection-start-column="0" selection-end-line="841" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bubble.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2718">
+          <caret line="151" column="44" lean-forward="true" selection-start-line="151" selection-start-column="44" selection-end-line="151" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index4.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1854">
+          <caret line="103" column="0" lean-forward="false" selection-start-line="103" selection-start-column="0" selection-end-line="150" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/bubble.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
@@ -298,21 +359,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scatter.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="35" column="36" lean-forward="false" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pivot_counts.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="45" lean-forward="false" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Business.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -345,6 +391,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="1720" column="2" lean-forward="false" selection-start-line="1720" selection-start-column="2" selection-end-line="1720" selection-end-column="2" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -371,30 +418,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/d31.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15138">
-          <caret line="841" column="0" lean-forward="false" selection-start-line="841" selection-start-column="0" selection-end-line="841" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index4.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1854">
-          <caret line="103" column="0" lean-forward="false" selection-start-line="103" selection-start-column="0" selection-end-line="150" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scatter1.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="684">
-          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pivot_rating_c.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -403,10 +426,49 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/scatter.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="34" column="23" lean-forward="false" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pivot_counts.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="45" lean-forward="false" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scatter1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="864">
+          <caret line="48" column="18" lean-forward="false" selection-start-line="48" selection-start-column="16" selection-end-line="48" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/d31.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3096">
+          <caret line="841" column="0" lean-forward="false" selection-start-line="841" selection-start-column="0" selection-end-line="841" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/bubble.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="107" column="9" lean-forward="true" selection-start-line="107" selection-start-column="9" selection-end-line="107" selection-end-column="9" />
+        <state relative-caret-position="684">
+          <caret line="38" column="18" lean-forward="false" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index4.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1677">
+          <caret line="113" column="53" lean-forward="true" selection-start-line="113" selection-start-column="53" selection-end-line="113" selection-end-column="53" />
           <folding />
         </state>
       </provider>
