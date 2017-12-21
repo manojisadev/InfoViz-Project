@@ -1,0 +1,470 @@
+business_name,category,r_count,quarter,rating
+Juan's Flaming Fajitas & Cantina,Mexican,33,2017-07-01,4.7
+Juan's Flaming Fajitas & Cantina,Mexican,36,2013-10-01,4.5
+Juan's Flaming Fajitas & Cantina,Mexican,37,2014-07-01,4.3
+Juan's Flaming Fajitas & Cantina,Mexican,42,2015-01-01,4.8
+Juan's Flaming Fajitas & Cantina,Mexican,14,2013-01-01,4.7
+Juan's Flaming Fajitas & Cantina,Mexican,44,2013-07-01,4.3
+Juan's Flaming Fajitas & Cantina,Mexican,58,2015-04-01,4.4
+Juan's Flaming Fajitas & Cantina,Mexican,74,2017-01-01,4.7
+Juan's Flaming Fajitas & Cantina,Mexican,50,2013-04-01,4.4
+Juan's Flaming Fajitas & Cantina,Mexican,45,2014-10-01,4.8
+Juan's Flaming Fajitas & Cantina,Mexican,48,2014-04-01,4.2
+Juan's Flaming Fajitas & Cantina,Mexican,55,2015-10-01,4.7
+Juan's Flaming Fajitas & Cantina,Mexican,85,2017-04-01,4.6
+Juan's Flaming Fajitas & Cantina,Mexican,53,2016-10-01,4.8
+Juan's Flaming Fajitas & Cantina,Mexican,82,2016-01-01,4.6
+Juan's Flaming Fajitas & Cantina,Mexican,89,2016-04-01,4.6
+Juan's Flaming Fajitas & Cantina,Mexican,75,2015-07-01,4.4
+Juan's Flaming Fajitas & Cantina,Mexican,90,2016-07-01,4.7
+Juan's Flaming Fajitas & Cantina,Mexican,52,2014-01-01,4.4
+Mastro's Ocean Club,American (Traditional),10,2010-10-01,4.8
+Mastro's Ocean Club,American (Traditional),35,2013-04-01,4.5
+Mastro's Ocean Club,American (Traditional),39,2012-01-01,4.3
+Mastro's Ocean Club,American (Traditional),11,2017-07-01,4.6
+Mastro's Ocean Club,American (Traditional),37,2012-10-01,4.4
+Mastro's Ocean Club,American (Traditional),44,2015-01-01,4.3
+Mastro's Ocean Club,American (Traditional),23,2011-07-01,4.1
+Mastro's Ocean Club,American (Traditional),10,2010-01-01,4.7
+Mastro's Ocean Club,American (Traditional),38,2016-07-01,4.3
+Mastro's Ocean Club,American (Traditional),33,2012-04-01,4.2
+Mastro's Ocean Club,American (Traditional),43,2012-07-01,4.7
+Mastro's Ocean Club,American (Traditional),22,2011-04-01,4.2
+Mastro's Ocean Club,American (Traditional),33,2015-10-01,4.3
+Mastro's Ocean Club,American (Traditional),45,2017-04-01,4.2
+Mastro's Ocean Club,American (Traditional),55,2014-01-01,4.4
+Mastro's Ocean Club,American (Traditional),22,2011-01-01,4
+Mastro's Ocean Club,American (Traditional),49,2014-07-01,4.4
+Mastro's Ocean Club,American (Traditional),28,2011-10-01,4.3
+Mastro's Ocean Club,American (Traditional),38,2016-04-01,4.1
+Mastro's Ocean Club,American (Traditional),65,2014-10-01,4.1
+Mastro's Ocean Club,American (Traditional),22,2010-07-01,4.1
+Mastro's Ocean Club,American (Traditional),59,2014-04-01,4.4
+Mastro's Ocean Club,American (Traditional),54,2015-04-01,4.4
+Mastro's Ocean Club,American (Traditional),19,2010-04-01,4.4
+Mastro's Ocean Club,American (Traditional),50,2016-01-01,4.5
+Mastro's Ocean Club,American (Traditional),37,2013-07-01,4.2
+Mastro's Ocean Club,American (Traditional),35,2016-10-01,4.3
+Mastro's Ocean Club,American (Traditional),56,2015-07-01,4.3
+Mastro's Ocean Club,American (Traditional),58,2017-01-01,4.2
+Mastro's Ocean Club,American (Traditional),40,2013-01-01,4.5
+Mastro's Ocean Club,American (Traditional),58,2013-10-01,4.3
+Japanese Curry Zen,Japanese,18,2017-07-01,4.2
+Japanese Curry Zen,Japanese,26,2013-04-01,4.3
+Japanese Curry Zen,Japanese,47,2014-07-01,4.6
+Japanese Curry Zen,Japanese,35,2016-04-01,4.3
+Japanese Curry Zen,Japanese,38,2015-01-01,4.7
+Japanese Curry Zen,Japanese,20,2013-01-01,4
+Japanese Curry Zen,Japanese,45,2012-10-01,4.1
+Japanese Curry Zen,Japanese,43,2017-04-01,4.3
+Japanese Curry Zen,Japanese,37,2013-07-01,4.5
+Japanese Curry Zen,Japanese,31,2014-04-01,4.4
+Japanese Curry Zen,Japanese,25,2015-04-01,4.5
+Japanese Curry Zen,Japanese,43,2016-10-01,4.2
+Japanese Curry Zen,Japanese,54,2014-10-01,4.6
+Japanese Curry Zen,Japanese,37,2015-07-01,4.5
+Japanese Curry Zen,Japanese,35,2013-10-01,4.4
+Japanese Curry Zen,Japanese,38,2017-01-01,4.3
+Japanese Curry Zen,Japanese,51,2015-10-01,4.3
+Japanese Curry Zen,Japanese,51,2016-07-01,4.6
+Japanese Curry Zen,Japanese,34,2014-01-01,4.7
+Japanese Curry Zen,Japanese,54,2016-01-01,4.5
+Joël  Robuchon,French,5,2006-10-01,5
+Joël  Robuchon,French,14,2012-10-01,4.4
+Joël  Robuchon,French,2,2006-07-01,4.5
+Joël  Robuchon,French,28,2010-10-01,4.4
+Joël  Robuchon,French,7,2017-07-01,4.7
+Joël  Robuchon,French,5,2008-10-01,4.8
+Joël  Robuchon,French,1,2007-01-01,5
+Joël  Robuchon,French,3,2007-10-01,5
+Joël  Robuchon,French,21,2017-01-01,4.6
+Joël  Robuchon,French,5,2009-07-01,4.8
+Joël  Robuchon,French,5,2007-07-01,4.2
+Joël  Robuchon,French,8,2008-04-01,4.2
+Joël  Robuchon,French,25,2015-01-01,4.4
+Joël  Robuchon,French,20,2012-07-01,4.3
+Joël  Robuchon,French,23,2014-10-01,4.2
+Joël  Robuchon,French,26,2013-10-01,4.6
+Joël  Robuchon,French,32,2015-04-01,4.3
+Joël  Robuchon,French,11,2009-04-01,5
+Joël  Robuchon,French,26,2011-04-01,4.5
+Joël  Robuchon,French,22,2010-07-01,4.4
+Joël  Robuchon,French,28,2012-01-01,4.5
+Joël  Robuchon,French,27,2011-01-01,4.3
+Joël  Robuchon,French,23,2009-10-01,4.5
+Joël  Robuchon,French,24,2011-07-01,4.5
+Joël  Robuchon,French,8,2008-07-01,4.4
+Joël  Robuchon,French,24,2016-04-01,4.2
+Joël  Robuchon,French,18,2012-04-01,4.7
+Joël  Robuchon,French,31,2015-10-01,4.2
+Joël  Robuchon,French,29,2014-07-01,4.3
+Joël  Robuchon,French,15,2016-01-01,4.5
+Joël  Robuchon,French,5,2007-04-01,4.6
+Joël  Robuchon,French,16,2013-07-01,4.2
+Joël  Robuchon,French,12,2016-10-01,4.3
+Joël  Robuchon,French,36,2015-07-01,4.4
+Joël  Robuchon,French,26,2010-04-01,4.3
+Joël  Robuchon,French,28,2014-04-01,4.4
+Joël  Robuchon,French,9,2008-01-01,4.8
+Joël  Robuchon,French,16,2013-01-01,4.2
+Joël  Robuchon,French,40,2014-01-01,4.3
+Joël  Robuchon,French,26,2011-10-01,4.5
+Joël  Robuchon,French,20,2010-01-01,4.8
+Joël  Robuchon,French,25,2016-07-01,4.6
+Joël  Robuchon,French,18,2013-04-01,4.4
+Joël  Robuchon,French,30,2017-04-01,4
+Joël  Robuchon,French,8,2009-01-01,4.6
+Egg & I,American (Traditional),1,2007-10-01,4
+Egg & I,American (Traditional),1,2006-10-01,5
+Egg & I,American (Traditional),2,2007-04-01,4.5
+Egg & I,American (Traditional),1,2006-07-01,5
+Egg & I,American (Traditional),1,2007-01-01,5
+Egg & I,American (Traditional),1,2005-07-01,5
+Egg & I,American (Traditional),8,2009-10-01,4
+Egg & I,American (Traditional),20,2009-01-01,4.1
+Egg & I,American (Traditional),10,2009-07-01,3.9
+Egg & I,American (Traditional),5,2008-07-01,4.4
+Egg & I,American (Traditional),3,2008-04-01,5
+Egg & I,American (Traditional),14,2009-04-01,3.9
+Egg & I,American (Traditional),31,2013-01-01,4.1
+Egg & I,American (Traditional),10,2008-10-01,4.3
+Egg & I,American (Traditional),2,2008-01-01,4
+Egg & I,American (Traditional),17,2010-04-01,4.4
+Egg & I,American (Traditional),1,2007-07-01,4
+Egg & I,American (Traditional),18,2010-07-01,4.1
+Egg & I,American (Traditional),39,2012-10-01,4.3
+Egg & I,American (Traditional),34,2011-10-01,3.8
+Egg & I,American (Traditional),28,2011-01-01,4.6
+Egg & I,American (Traditional),39,2011-04-01,4.3
+Egg & I,American (Traditional),28,2010-10-01,4.2
+Egg & I,American (Traditional),32,2012-01-01,4.2
+Egg & I,American (Traditional),51,2013-10-01,4.3
+Egg & I,American (Traditional),36,2012-04-01,4.2
+Egg & I,American (Traditional),37,2013-07-01,4
+Egg & I,American (Traditional),32,2012-07-01,4.2
+Egg & I,American (Traditional),45,2017-07-01,4.7
+Egg & I,American (Traditional),67,2014-01-01,4.4
+Egg & I,American (Traditional),103,2014-07-01,4.4
+Egg & I,American (Traditional),72,2014-10-01,4.3
+Egg & I,American (Traditional),116,2016-10-01,4.6
+Egg & I,American (Traditional),24,2013-04-01,4.4
+Egg & I,American (Traditional),132,2016-01-01,4.4
+Egg & I,American (Traditional),178,2015-07-01,4.6
+Egg & I,American (Traditional),89,2016-07-01,4.6
+Egg & I,American (Traditional),39,2011-07-01,4.2
+Egg & I,American (Traditional),119,2015-01-01,4.4
+Egg & I,American (Traditional),21,2010-01-01,4
+Egg & I,American (Traditional),136,2017-01-01,4.6
+Egg & I,American (Traditional),147,2015-04-01,4.5
+Egg & I,American (Traditional),130,2017-04-01,4.5
+Egg & I,American (Traditional),99,2014-04-01,4.5
+Egg & I,American (Traditional),208,2016-04-01,4.6
+Egg & I,American (Traditional),118,2015-10-01,4.5
+Gangnam Asian BBQ Dining,Japanese,11,2013-07-01,4.5
+Gangnam Asian BBQ Dining,Japanese,3,2013-01-01,3.7
+Gangnam Asian BBQ Dining,Japanese,12,2013-10-01,4.2
+Gangnam Asian BBQ Dining,Japanese,59,2017-07-01,4.1
+Gangnam Asian BBQ Dining,Japanese,19,2015-01-01,3.4
+Gangnam Asian BBQ Dining,Japanese,7,2013-04-01,3.9
+Gangnam Asian BBQ Dining,Japanese,49,2015-07-01,4.1
+Gangnam Asian BBQ Dining,Japanese,9,2014-10-01,3.9
+Gangnam Asian BBQ Dining,Japanese,17,2014-04-01,4
+Gangnam Asian BBQ Dining,Japanese,28,2014-07-01,4.5
+Gangnam Asian BBQ Dining,Japanese,112,2016-10-01,4.1
+Gangnam Asian BBQ Dining,Japanese,249,2015-04-01,4.6
+Gangnam Asian BBQ Dining,Japanese,173,2017-04-01,4.5
+Gangnam Asian BBQ Dining,Japanese,751,2016-04-01,4.7
+Gangnam Asian BBQ Dining,Japanese,15,2014-01-01,4.2
+Gangnam Asian BBQ Dining,Japanese,148,2017-01-01,4.5
+Gangnam Asian BBQ Dining,Japanese,185,2016-07-01,4.5
+Gangnam Asian BBQ Dining,Japanese,567,2015-10-01,4.6
+Gangnam Asian BBQ Dining,Japanese,770,2016-01-01,4.7
+DW Bistro,American (Traditional),9,2010-04-01,4.6
+DW Bistro,American (Traditional),34,2012-04-01,4.5
+DW Bistro,American (Traditional),25,2012-10-01,4.6
+DW Bistro,American (Traditional),21,2011-04-01,3.8
+DW Bistro,American (Traditional),24,2011-07-01,4.6
+DW Bistro,American (Traditional),46,2015-07-01,4.5
+DW Bistro,American (Traditional),50,2013-04-01,4.5
+DW Bistro,American (Traditional),24,2016-10-01,3.6
+DW Bistro,American (Traditional),16,2011-01-01,4.3
+DW Bistro,American (Traditional),35,2014-10-01,4.4
+DW Bistro,American (Traditional),45,2014-07-01,4.3
+DW Bistro,American (Traditional),43,2017-01-01,4.4
+DW Bistro,American (Traditional),15,2017-07-01,4.3
+DW Bistro,American (Traditional),12,2010-07-01,4.8
+DW Bistro,American (Traditional),42,2017-04-01,4.4
+DW Bistro,American (Traditional),47,2015-01-01,4.5
+DW Bistro,American (Traditional),9,2010-10-01,4.2
+DW Bistro,American (Traditional),37,2016-04-01,4.2
+DW Bistro,American (Traditional),37,2013-01-01,4.4
+DW Bistro,American (Traditional),49,2013-07-01,4.3
+DW Bistro,American (Traditional),48,2015-04-01,4.3
+DW Bistro,American (Traditional),38,2012-01-01,4.3
+DW Bistro,American (Traditional),29,2015-10-01,4.1
+DW Bistro,American (Traditional),41,2012-07-01,4.4
+DW Bistro,American (Traditional),25,2011-10-01,4.5
+DW Bistro,American (Traditional),36,2016-01-01,4.2
+DW Bistro,American (Traditional),44,2013-10-01,4.6
+DW Bistro,American (Traditional),55,2014-04-01,4.4
+DW Bistro,American (Traditional),38,2016-07-01,4.3
+DW Bistro,American (Traditional),52,2014-01-01,4.5
+Mr Mamas,American (Traditional),11,2015-01-01,4.3
+Mr Mamas,American (Traditional),43,2017-07-01,4.5
+Mr Mamas,American (Traditional),81,2017-01-01,4.7
+Mr Mamas,American (Traditional),137,2016-04-01,4.6
+Mr Mamas,American (Traditional),136,2015-10-01,4.5
+Mr Mamas,American (Traditional),168,2016-01-01,4.5
+Mr Mamas,American (Traditional),159,2016-10-01,4.6
+Mr Mamas,American (Traditional),67,2016-07-01,4.1
+Mr Mamas,American (Traditional),174,2015-07-01,4.7
+Mr Mamas,American (Traditional),205,2015-04-01,4.8
+Mr Mamas,American (Traditional),111,2017-04-01,4.6
+Soho Japanese Restaurant,Japanese,40,2016-04-01,4.5
+Soho Japanese Restaurant,Japanese,44,2016-01-01,4.4
+Soho Japanese Restaurant,Japanese,38,2016-10-01,4.7
+Soho Japanese Restaurant,Japanese,85,2015-04-01,4.6
+Soho Japanese Restaurant,Japanese,60,2017-01-01,4.8
+Soho Japanese Restaurant,Japanese,57,2013-10-01,4.8
+Soho Japanese Restaurant,Japanese,95,2014-10-01,4.6
+Soho Japanese Restaurant,Japanese,46,2016-07-01,4.6
+Soho Japanese Restaurant,Japanese,151,2014-04-01,4.7
+Soho Japanese Restaurant,Japanese,104,2015-01-01,4.5
+Soho Japanese Restaurant,Japanese,24,2017-07-01,4.4
+Soho Japanese Restaurant,Japanese,59,2017-04-01,4.9
+Soho Japanese Restaurant,Japanese,141,2014-01-01,4.8
+Soho Japanese Restaurant,Japanese,52,2015-10-01,4.7
+Soho Japanese Restaurant,Japanese,84,2015-07-01,4.7
+Soho Japanese Restaurant,Japanese,147,2014-07-01,4.7
+Mon Ami Gabi,French,3,2005-10-01,4.7
+Mon Ami Gabi,French,5,2006-04-01,4.4
+Mon Ami Gabi,French,6,2006-07-01,4.2
+Mon Ami Gabi,French,4,2006-10-01,4.5
+Mon Ami Gabi,French,9,2007-01-01,4.3
+Mon Ami Gabi,French,2,2006-01-01,4.5
+Mon Ami Gabi,French,41,2009-10-01,3.9
+Mon Ami Gabi,French,17,2007-10-01,4
+Mon Ami Gabi,French,14,2007-04-01,4.1
+Mon Ami Gabi,French,42,2009-01-01,4.1
+Mon Ami Gabi,French,39,2009-04-01,4.2
+Mon Ami Gabi,French,23,2008-04-01,4
+Mon Ami Gabi,French,25,2008-07-01,3.7
+Mon Ami Gabi,French,31,2008-01-01,4.2
+Mon Ami Gabi,French,49,2009-07-01,4
+Mon Ami Gabi,French,263,2014-04-01,4.1
+Mon Ami Gabi,French,73,2010-01-01,4
+Mon Ami Gabi,French,219,2012-07-01,4.2
+Mon Ami Gabi,French,27,2007-07-01,4.1
+Mon Ami Gabi,French,167,2011-10-01,4.1
+Mon Ami Gabi,French,98,2010-10-01,4.1
+Mon Ami Gabi,French,191,2012-01-01,4
+Mon Ami Gabi,French,307,2014-07-01,4.1
+Mon Ami Gabi,French,222,2013-01-01,4.1
+Mon Ami Gabi,French,167,2011-04-01,4.1
+Mon Ami Gabi,French,182,2012-04-01,4.1
+Mon Ami Gabi,French,203,2016-07-01,4.1
+Mon Ami Gabi,French,292,2013-07-01,4.2
+Mon Ami Gabi,French,276,2016-01-01,4.2
+Mon Ami Gabi,French,77,2017-07-01,4.1
+Mon Ami Gabi,French,25,2008-10-01,4
+Mon Ami Gabi,French,272,2016-04-01,4
+Mon Ami Gabi,French,226,2014-10-01,4
+Mon Ami Gabi,French,264,2013-04-01,4.2
+Mon Ami Gabi,French,106,2010-07-01,4
+Mon Ami Gabi,French,267,2015-01-01,4
+Mon Ami Gabi,French,247,2017-01-01,4.2
+Mon Ami Gabi,French,178,2012-10-01,4
+Mon Ami Gabi,French,86,2010-04-01,4.1
+Mon Ami Gabi,French,209,2016-10-01,4.1
+Mon Ami Gabi,French,194,2011-07-01,4.3
+Mon Ami Gabi,French,251,2017-04-01,4.1
+Mon Ami Gabi,French,307,2014-01-01,4.2
+Mon Ami Gabi,French,290,2015-07-01,4.2
+Mon Ami Gabi,French,275,2015-10-01,4.2
+Mon Ami Gabi,French,257,2013-10-01,4.2
+Mon Ami Gabi,French,296,2015-04-01,4.1
+Mon Ami Gabi,French,154,2011-01-01,4
+TACOS EL GORDO,Mexican,5,2010-07-01,4.2
+TACOS EL GORDO,Mexican,10,2010-10-01,4.8
+TACOS EL GORDO,Mexican,27,2012-01-01,4.5
+TACOS EL GORDO,Mexican,27,2013-10-01,4.4
+TACOS EL GORDO,Mexican,21,2011-01-01,4.5
+TACOS EL GORDO,Mexican,33,2014-01-01,4.6
+TACOS EL GORDO,Mexican,16,2011-10-01,4.1
+TACOS EL GORDO,Mexican,26,2012-04-01,4.3
+TACOS EL GORDO,Mexican,51,2014-10-01,4.5
+TACOS EL GORDO,Mexican,40,2011-07-01,4.6
+TACOS EL GORDO,Mexican,68,2016-04-01,4.1
+TACOS EL GORDO,Mexican,29,2012-07-01,4.4
+TACOS EL GORDO,Mexican,87,2015-04-01,4.1
+TACOS EL GORDO,Mexican,19,2013-07-01,4.4
+TACOS EL GORDO,Mexican,23,2013-04-01,4.6
+TACOS EL GORDO,Mexican,32,2014-07-01,4.4
+TACOS EL GORDO,Mexican,70,2016-01-01,4
+TACOS EL GORDO,Mexican,91,2015-10-01,4.2
+TACOS EL GORDO,Mexican,27,2013-01-01,4.4
+TACOS EL GORDO,Mexican,36,2011-04-01,4.5
+TACOS EL GORDO,Mexican,83,2016-07-01,4.3
+TACOS EL GORDO,Mexican,46,2017-01-01,4.1
+TACOS EL GORDO,Mexican,29,2012-10-01,4.5
+TACOS EL GORDO,Mexican,57,2016-10-01,4.1
+TACOS EL GORDO,Mexican,26,2017-07-01,4
+TACOS EL GORDO,Mexican,33,2014-04-01,4.6
+TACOS EL GORDO,Mexican,52,2017-04-01,3.9
+TACOS EL GORDO,Mexican,113,2015-07-01,4.3
+TACOS EL GORDO,Mexican,88,2015-01-01,4.4
+Raku,Japanese,3,2008-07-01,4.3
+Raku,Japanese,5,2008-10-01,4.8
+Raku,Japanese,9,2009-07-01,4.8
+Raku,Japanese,43,2013-07-01,4.7
+Raku,Japanese,16,2009-10-01,4.8
+Raku,Japanese,34,2010-07-01,4.4
+Raku,Japanese,35,2017-04-01,4.5
+Raku,Japanese,42,2015-10-01,4.3
+Raku,Japanese,40,2015-04-01,4.5
+Raku,Japanese,10,2017-07-01,4.7
+Raku,Japanese,29,2011-04-01,4.1
+Raku,Japanese,4,2008-04-01,4.2
+Raku,Japanese,36,2010-01-01,4.4
+Raku,Japanese,33,2010-04-01,4.5
+Raku,Japanese,39,2011-07-01,4.6
+Raku,Japanese,45,2017-01-01,4.7
+Raku,Japanese,49,2015-01-01,4.6
+Raku,Japanese,16,2009-04-01,4.4
+Raku,Japanese,39,2011-01-01,4.7
+Raku,Japanese,50,2016-07-01,4.4
+Raku,Japanese,51,2016-01-01,4.4
+Raku,Japanese,61,2015-07-01,4.4
+Raku,Japanese,30,2013-04-01,4.4
+Raku,Japanese,23,2010-10-01,4.6
+Raku,Japanese,50,2013-10-01,4.5
+Raku,Japanese,46,2016-10-01,4.3
+Raku,Japanese,43,2014-01-01,4.4
+Raku,Japanese,42,2014-10-01,4.1
+Raku,Japanese,8,2009-01-01,4.8
+Raku,Japanese,35,2014-04-01,4.1
+Raku,Japanese,21,2011-10-01,4.4
+Raku,Japanese,32,2012-01-01,4.3
+Raku,Japanese,28,2012-07-01,4.2
+Raku,Japanese,29,2012-10-01,4.2
+Raku,Japanese,53,2014-07-01,4.2
+Raku,Japanese,28,2013-01-01,4.5
+Raku,Japanese,45,2016-04-01,4.4
+Raku,Japanese,25,2012-04-01,4.2
+District One Kitchen & Bar,Vietnamese,75,2014-04-01,4.1
+District One Kitchen & Bar,Vietnamese,67,2014-10-01,4.1
+District One Kitchen & Bar,Vietnamese,39,2017-07-01,3.7
+District One Kitchen & Bar,Vietnamese,49,2014-01-01,4.4
+District One Kitchen & Bar,Vietnamese,62,2016-01-01,4.4
+District One Kitchen & Bar,Vietnamese,72,2014-07-01,3.9
+District One Kitchen & Bar,Vietnamese,37,2016-04-01,4
+District One Kitchen & Bar,Vietnamese,60,2016-10-01,4.3
+District One Kitchen & Bar,Vietnamese,93,2015-07-01,4.1
+District One Kitchen & Bar,Vietnamese,64,2015-10-01,4.2
+District One Kitchen & Bar,Vietnamese,87,2015-04-01,4.3
+District One Kitchen & Bar,Vietnamese,102,2017-04-01,3.8
+District One Kitchen & Bar,Vietnamese,62,2015-01-01,4.1
+District One Kitchen & Bar,Vietnamese,68,2016-07-01,4.5
+District One Kitchen & Bar,Vietnamese,57,2017-01-01,4.1
+Sakana,Japanese,31,2014-01-01,4.2
+Sakana,Japanese,47,2016-07-01,3.8
+Sakana,Japanese,67,2014-07-01,4.3
+Sakana,Japanese,100,2016-01-01,4.6
+Sakana,Japanese,23,2014-04-01,4.4
+Sakana,Japanese,79,2016-10-01,3.8
+Sakana,Japanese,28,2013-10-01,4.1
+Sakana,Japanese,87,2017-04-01,4.2
+Sakana,Japanese,89,2015-01-01,4.1
+Sakana,Japanese,22,2013-07-01,4.6
+Sakana,Japanese,37,2017-07-01,4.5
+Sakana,Japanese,67,2016-04-01,3.9
+Sakana,Japanese,77,2015-04-01,4.2
+Sakana,Japanese,40,2014-10-01,4.4
+Sakana,Japanese,68,2015-10-01,4.7
+Sakana,Japanese,45,2017-01-01,3.9
+Sakana,Japanese,87,2015-07-01,4.3
+Monta Ramen,Japanese,4,2010-04-01,4
+Monta Ramen,Japanese,48,2011-07-01,4.2
+Monta Ramen,Japanese,65,2010-07-01,4.1
+Monta Ramen,Japanese,66,2013-04-01,4.1
+Monta Ramen,Japanese,65,2012-10-01,4.1
+Monta Ramen,Japanese,26,2017-07-01,4.1
+Monta Ramen,Japanese,83,2016-10-01,4.1
+Monta Ramen,Japanese,63,2013-07-01,4.2
+Monta Ramen,Japanese,81,2015-10-01,4.1
+Monta Ramen,Japanese,77,2014-04-01,4.3
+Monta Ramen,Japanese,54,2012-04-01,4.4
+Monta Ramen,Japanese,100,2016-07-01,4.1
+Monta Ramen,Japanese,77,2012-07-01,4.1
+Monta Ramen,Japanese,105,2014-07-01,4
+Monta Ramen,Japanese,83,2015-07-01,4.4
+Monta Ramen,Japanese,75,2017-01-01,4.1
+Monta Ramen,Japanese,61,2013-01-01,4
+Monta Ramen,Japanese,88,2013-10-01,4
+Monta Ramen,Japanese,105,2015-01-01,4.2
+Monta Ramen,Japanese,46,2011-10-01,3.9
+Monta Ramen,Japanese,51,2011-04-01,4
+Monta Ramen,Japanese,109,2017-04-01,4.1
+Monta Ramen,Japanese,96,2016-01-01,4.3
+Monta Ramen,Japanese,59,2010-10-01,4.1
+Monta Ramen,Japanese,70,2016-04-01,4.2
+Monta Ramen,Japanese,93,2015-04-01,4.3
+Monta Ramen,Japanese,94,2014-01-01,4.4
+Monta Ramen,Japanese,90,2014-10-01,4.3
+Monta Ramen,Japanese,60,2012-01-01,4.3
+Monta Ramen,Japanese,56,2011-01-01,4.2
+Baguette Cafe,French,1,2010-04-01,5
+Baguette Cafe,French,1,2009-07-01,5
+Baguette Cafe,French,28,2013-10-01,4.8
+Baguette Cafe,French,7,2010-10-01,4.7
+Baguette Cafe,French,8,2017-07-01,4.2
+Baguette Cafe,French,27,2011-07-01,4.3
+Baguette Cafe,French,23,2012-04-01,4.9
+Baguette Cafe,French,31,2013-04-01,4.8
+Baguette Cafe,French,39,2014-07-01,4.8
+Baguette Cafe,French,1,2010-01-01,4
+Baguette Cafe,French,48,2015-04-01,4.6
+Baguette Cafe,French,56,2015-10-01,4.8
+Baguette Cafe,French,32,2011-01-01,4.8
+Baguette Cafe,French,36,2013-07-01,4.7
+Baguette Cafe,French,42,2014-01-01,4.6
+Baguette Cafe,French,42,2016-10-01,4.5
+Baguette Cafe,French,58,2015-07-01,4.7
+Baguette Cafe,French,27,2011-10-01,4.6
+Baguette Cafe,French,31,2014-10-01,4.5
+Baguette Cafe,French,19,2013-01-01,4.9
+Baguette Cafe,French,46,2014-04-01,4.7
+Baguette Cafe,French,23,2012-07-01,4.7
+Baguette Cafe,French,17,2012-10-01,4.6
+Baguette Cafe,French,51,2016-07-01,4.7
+Baguette Cafe,French,54,2016-04-01,4.4
+Baguette Cafe,French,32,2015-01-01,4.8
+Baguette Cafe,French,19,2012-01-01,4.7
+Baguette Cafe,French,47,2017-04-01,4.8
+Baguette Cafe,French,64,2016-01-01,4.8
+Baguette Cafe,French,23,2011-04-01,4.7
+Baguette Cafe,French,49,2017-01-01,4.7
+Baguette Cafe,French,8,2010-07-01,5
+Ramen Sora,Japanese,48,2014-10-01,4.3
+Ramen Sora,Japanese,37,2013-07-01,3.6
+Ramen Sora,Japanese,57,2016-04-01,4.2
+Ramen Sora,Japanese,50,2015-04-01,4
+Ramen Sora,Japanese,50,2014-01-01,4.1
+Ramen Sora,Japanese,54,2015-07-01,4.5
+Ramen Sora,Japanese,55,2014-07-01,4.3
+Ramen Sora,Japanese,14,2017-07-01,4.2
+Ramen Sora,Japanese,45,2013-01-01,4.2
+Ramen Sora,Japanese,42,2012-07-01,4.5
+Ramen Sora,Japanese,52,2017-01-01,4
+Ramen Sora,Japanese,28,2012-04-01,4.1
+Ramen Sora,Japanese,58,2016-10-01,4.3
+Ramen Sora,Japanese,28,2012-10-01,4.2
+Ramen Sora,Japanese,60,2016-07-01,4
+Ramen Sora,Japanese,30,2013-04-01,4
+Ramen Sora,Japanese,63,2015-10-01,4.3
+Ramen Sora,Japanese,51,2014-04-01,4.3
+Ramen Sora,Japanese,67,2016-01-01,4
+Ramen Sora,Japanese,55,2012-01-01,3.9
+Ramen Sora,Japanese,46,2017-04-01,3.9
+Ramen Sora,Japanese,50,2013-10-01,4.4
+Ramen Sora,Japanese,59,2015-01-01,4.2
