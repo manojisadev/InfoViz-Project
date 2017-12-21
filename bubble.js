@@ -8,6 +8,10 @@ var relColor = d3.scale.linear()
     .domain([2, 5])
     .range(["red", "green"]);
 
+var hslSat = d3.scale.linear()
+    .domain([15, 50, 300])
+    .range([0.4, 0.9, 1]);
+
 var x = d3.scale.ordinal()
     .rangeRoundBands([0, width]);
 
@@ -22,7 +26,9 @@ var xAxis = d3.svg.axis()
 
 var yAxis = d3.svg.axis()
     .scale(y)
-    .orient("left")
+    .orient("left");
+
+var colorHSL
 
 var chart = d3.select(".chart")
     .attr("width", totWidth)
@@ -32,7 +38,7 @@ var chart = d3.select(".chart")
 
 d3.csv("pivot_rating_c.csv", function (error, data) {
 
-    d3.csv("pivot_rating_c.csv", function (error, relData) {
+    d3.csv("pivot_counts.csv", function (error, relData) {
 
         var opaScale = d3.scale.linear()
             .domain([0, 100])
@@ -63,14 +69,14 @@ d3.csv("pivot_rating_c.csv", function (error, data) {
 
         data.forEach(function (d) {
             relData.forEach(function (rel) {
-                d.groups2 = grpNames.map(function (name){
+                d.groups2 = grpNames.map(function (name) {
                     return {name: name, value: +rel[name]}
                 });
             });
         });
 
-        data.forEach(function (d){
-            d.groups.forEach(function (gd, index){
+        data.forEach(function (d) {
+            d.groups.forEach(function (gd, index) {
                 gd.rel = +d.groups2[index].value
             })
         })
@@ -120,16 +126,15 @@ d3.csv("pivot_rating_c.csv", function (error, data) {
             .attr("y", 0)
             .attr("height", y.rangeBand())
             .attr("width", x.rangeBand())
-            // .style("fill-opacity", function (d) {
-            //     return 1
-            //     // debugger
-            //     // return color(d.category);
-            // })
+            .style("fill-opacity", function (d) {
+                return 0.5
+                // debugger
+                // return color(d.category);
+            })
             .style("fill", function (d, i, j) {
                     return color(d.category);
                 }
-            )
-        ;
+            );
 
         rmax = Math.min(y.rangeBand() / 2 - 4, x.rangeBand() / 2 - 4)
         gcells.append("circle")
@@ -145,14 +150,195 @@ d3.csv("pivot_rating_c.csv", function (error, data) {
             //     return opaScale(d.rel)
             // })
             .style("fill", function (d) {
-                    debugger
-                    // var gbval = 1+Math.floor(255 - (255/4*(d.value-1)));
-                    // return "rgb(" + 255 + "," + gbval + "," + gbval + ")";
-                debugger
-                    return relColor(d.value)
+                    d.value > 2.5 ? colorHSL = d3.hsl(135, 0, 0.5) :  colorHSL = d3.hsl(0, 0, 0.5);
+                    colorHSL.s = hslSat(+d.rel);
+                    return colorHSL
                 }
             )
-            .style("stroke", "black")
+            .style("stroke", "black");
+
+        debugger
+
+        var legend = chart
+            .append("g")
+            .attr("transform", "translate(0," + (height + 0) + ")")
+            .attr("class","legend")
+            .style("font-weight","bold")
+
+        var legwidths = [0, 50, 100, 150, 200];
+
+        var legsymbols = legend.selectAll(".legsymbols")
+            .data(["1","2","3","4","5"])
+            .enter()
+            .append("g")
+            .attr("class","legsymbols")
+            .attr("transform",function(d,i) {return "translate(" + (65 + legwidths[i] ) + ",0)";});
+
+
+        var legendspace = 5;
+
+
+        legsymbols.append("circle")
+            .attr("cx", function(d,i) {return rmax / ((-1)*((i+1) - 6)) ;})
+            .attr("cy", function(d,i) {return (legendspace+2*rmax) - (rmax / ((-1)*((i+1) - 7))) ;})
+            .style("fill", function(d,i) {
+                return d3.hsl(255, 1, 1)
+                }
+            )
+            .style("stroke","black")
+            .attr("r", function(d,i) {
+                debugger
+                return +d * 3
+                }
+            )
+        ;
+
+
+        legsymbols.append("text")
+            .attr("x", function(d,i) {return 5+2*rmax / ((-1)*((i+1) - 5.9)) ;})
+            .attr("y", legendspace + 2*rmax)
+            .style("text-anchor", "start")
+            .text(function(d) { return d; });
+
+        legend
+            .append("text")
+            .text("Ratings:")
+            .attr("y", rmax*2+ legendspace)
+        ;
+
+        var legends = chart
+            .append("g")
+            .attr("transform", "translate(325," + (height + 0) + ")")
+            .attr("class","legends")
+            .style("font-weight","bold")
+
+        var legwidths = [0, 50, 100, 150, 200];
+
+        var legsymbols = legends.selectAll(".legsymbols")
+            .data(["15", "25", "35", "50"])
+            .enter()
+            .append("g")
+            .attr("class","legsymbols")
+            .attr("transform",function(d,i) {return "translate(" + (175 + legwidths[i] ) + ",0)";});
+
+
+        var legendspace = 5;
+
+
+        legsymbols.append("circle")
+            .attr("cx", function(d,i) {return rmax / ((-1)*((i+1) - 6)) ;})
+            .attr("cy", function(d,i) {return (legendspace+2*rmax) - (rmax / ((-1)*((i+1) - 7))) ;})
+            .style("fill", function(d,i) {
+                    return d3.hsl(0, hslSat(+d), 0.5)
+                }
+            )
+            .style("stroke","black")
+            .attr("r", 15)
+        ;
+
+
+        legsymbols.append("text")
+            .attr("x", function(d,i) {return rmax + (i + 2 * 10)/ ((-1)*((i+1) - 6)) ;})
+            .attr("y", legendspace + 2*rmax)
+            .style("text-anchor", "start")
+            .text(function(d) { return d; });
+
+        legends
+            .append("text")
+            .text("Reliability (Negative):")
+            .attr("y", rmax*2+ legendspace)
+        ;
+
+
+        var legends = chart
+            .append("g")
+            .attr("transform", "translate(720," + (height + 0) + ")")
+            .attr("class","legends2")
+            .style("font-weight","bold")
+
+        var legwidths = [0, 50, 100, 150, 200];
+
+        var legsymbols = legends.selectAll(".legsymbols")
+            .data(["15", "25", "35", "50"])
+            .enter()
+            .append("g")
+            .attr("class","legsymbols")
+            .attr("transform",function(d,i) {return "translate(" + (175 + legwidths[i] ) + ",0)";});
+
+
+        var legendspace = 5;
+
+
+        legsymbols.append("circle")
+            .attr("cx", function(d,i) {return rmax / ((-1)*((i+1) - 6)) ;})
+            .attr("cy", function(d,i) {return (legendspace+2*rmax) - (rmax / ((-1)*((i+1) - 7))) ;})
+            .style("fill", function(d,i) {
+                    return d3.hsl(135, hslSat(+d), 0.5)
+                }
+            )
+            .style("stroke","black")
+            .attr("r", 15)
+        ;
+
+
+        legsymbols.append("text")
+            .attr("x", function(d,i) {return rmax + (i + 2 * 10)/ ((-1)*((i+1) - 6)) ;})
+            .attr("y", legendspace + 2*rmax)
+            .style("text-anchor", "start")
+            .text(function(d) { return d; });
+
+        legends
+            .append("text")
+            .text("Reliability (Positive):")
+            .attr("y", rmax*2+ legendspace)
+        ;
+
+        var legends = chart
+            .append("g")
+            .attr("transform", "translate(0," + (height + 25) + ")")
+            .attr("class","legends2")
+            .style("font-weight","bold")
+
+        // var legwidths = [0, 50, 100, 150, 200];
+
+        var legsymbols = legends.selectAll(".legsymbols")
+            .data(color.domain())
+            .enter()
+            .append("g")
+            .classed("legendt", true)
+            .attr("transform",function(d,i) {return "translate(" + ((i +1) * 110 ) + ",0)";});
+
+
+        var legendspace = 5;
+
+
+        legsymbols.append("circle")
+            .attr("cx", function(d,i) {return 5 ;})
+            .attr("cy", function(d,i) {return 30 ;})
+            .style("fill", function(d,i) {
+                return color(d)
+                }
+            )
+            .style("fill-opacity", function (d) {
+                return 0.5 })
+            .style("stroke","black")
+            .attr("r", 5)
+        ;
+
+
+        legsymbols.append("text")
+            .attr("x", -20)
+            .attr("y", 50)
+            .style("text-anchor", "start")
+            .text(function(d) {
+                if(d == "American (Traditional)")
+                    d = "American"
+                return d; });
+
+        legends
+            .append("text")
+            .text("Categories:")
+            .attr("y", rmax*2+ legendspace)
         ;
 
         debugger
