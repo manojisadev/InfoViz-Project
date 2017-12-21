@@ -150,12 +150,12 @@ d3.csv("pivot_rating_c.csv", function (error, data) {
             //     return opaScale(d.rel)
             // })
             .style("fill", function (d) {
-                    d.value > 2.5 ? colorHSL = d3.hsl(135, 0, 0.5) :  colorHSL = d3.hsl(0, 0, 0.5);
+                    d.value > 3.8 ? colorHSL = d3.hsl(135, 0, 0.5) :  colorHSL = d3.hsl(0, 0, 0.5);
                     colorHSL.s = hslSat(+d.rel);
                     return colorHSL
                 }
             )
-            .style("stroke", "black");
+            // .style("stroke", "black");
 
         debugger
 
@@ -232,7 +232,6 @@ d3.csv("pivot_rating_c.csv", function (error, data) {
                     return d3.hsl(0, hslSat(+d), 0.5)
                 }
             )
-            .style("stroke","black")
             .attr("r", 15)
         ;
 
@@ -276,7 +275,6 @@ d3.csv("pivot_rating_c.csv", function (error, data) {
                     return d3.hsl(135, hslSat(+d), 0.5)
                 }
             )
-            .style("stroke","black")
             .attr("r", 15)
         ;
 
@@ -312,17 +310,18 @@ d3.csv("pivot_rating_c.csv", function (error, data) {
         var legendspace = 5;
 
 
-        legsymbols.append("circle")
-            .attr("cx", function(d,i) {return 5 ;})
-            .attr("cy", function(d,i) {return 30 ;})
+        legsymbols.append("rect")
+            .attr("x", function(d,i) {return 5 ;})
+            .attr("y", function(d,i) {return 22 ;})
+            .attr("height", 15)
+            .attr("width", 15)
             .style("fill", function(d,i) {
                 return color(d)
                 }
             )
             .style("fill-opacity", function (d) {
                 return 0.5 })
-            .style("stroke","black")
-            .attr("r", 5)
+
         ;
 
 
